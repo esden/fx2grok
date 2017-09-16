@@ -1,0 +1,1306 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pkl_conn
+LIBS:pkl_cypress
+LIBS:pkl_device
+LIBS:pkl_ftdi
+LIBS:pkl_lattice
+LIBS:pkl_linear
+LIBS:pkl_logos
+LIBS:pkl_maxim
+LIBS:pkl_memory
+LIBS:pkl_misc
+LIBS:pkl_molex
+LIBS:pkl_power
+LIBS:pkl_sensor
+LIBS:pkl_silabs
+LIBS:pkl_tag_connect
+LIBS:pkl_texas
+LIBS:fx2grok-flat-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FX2Grok Flat"
+Date ""
+Rev "V0.2"
+Comp ""
+Comment1 "CC-BY-SA V4.0"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CY7C68013A-56 IC1
+U 1 1 59BC7288
+P 5600 3600
+F 0 "IC1" H 5600 3500 60  0000 C CNN
+F 1 "CY7C68013A-56" H 5600 3600 60  0000 C CNN
+F 2 "pkl_housings_dfn_qfn:QFN-56-1EP_8x8mm_Pitch0.5mm" H 5600 3600 60  0001 C CNN
+F 3 "" H 5600 3600 60  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_USB_OTG P1
+U 1 1 59BC7334
+P 1200 1300
+F 0 "P1" H 1525 1175 50  0000 C CNN
+F 1 "pkl_USB_OTG" H 1200 1500 50  0000 C CNN
+F 2 "pkl_connectors:Connector_USB_Micro_B_SMD" V 1150 1200 60  0001 C CNN
+F 3 "" V 1150 1200 60  0000 C CNN
+	1    1200 1300
+	0    -1   1    0   
+$EndComp
+$Comp
+L pkl_C_Small C14
+U 1 1 59BC74C6
+P 2900 4500
+F 0 "C14" H 2910 4570 50  0000 L CNN
+F 1 "1u" H 2910 4420 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2900 4500 60  0001 C CNN
+F 3 "" H 2900 4500 60  0000 C CNN
+F 4 "ANY" H 2900 4500 60  0001 C CNN "Source"
+	1    2900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_R_Small R2
+U 1 1 59BC75BC
+P 3700 3500
+F 0 "R2" V 3650 3600 50  0000 L CNN
+F 1 "2k7" V 3650 3400 50  0000 R CNN
+F 2 "pkl_dipol:R_0402" H 3700 3500 60  0001 C CNN
+F 3 "" H 3700 3500 60  0000 C CNN
+F 4 "ANY" H 3700 3500 60  0001 C CNN "Source"
+	1    3700 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 1900 5100 1800
+Wire Wire Line
+	5100 1800 5900 1800
+Wire Wire Line
+	5900 1800 5900 1900
+Wire Wire Line
+	5800 1900 5800 1800
+Connection ~ 5800 1800
+Wire Wire Line
+	5600 1900 5600 1800
+Connection ~ 5600 1800
+Wire Wire Line
+	5500 1700 5500 1900
+Connection ~ 5500 1800
+Wire Wire Line
+	5400 1900 5400 1800
+Connection ~ 5400 1800
+Wire Wire Line
+	5300 1900 5300 1800
+Connection ~ 5300 1800
+Wire Wire Line
+	5200 1900 5200 1800
+Connection ~ 5200 1800
+$Comp
+L +3V3 #PWR01
+U 1 1 59BC78F7
+P 5500 1700
+F 0 "#PWR01" H 5500 1550 50  0001 C CNN
+F 1 "+3V3" H 5500 1840 50  0000 C CNN
+F 2 "" H 5500 1700 50  0001 C CNN
+F 3 "" H 5500 1700 50  0001 C CNN
+	1    5500 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4200 2300
+NoConn ~ 4200 2400
+NoConn ~ 4200 3200
+NoConn ~ 4200 3300
+NoConn ~ 4200 3800
+NoConn ~ 4200 3900
+NoConn ~ 4200 4000
+NoConn ~ 6900 4100
+NoConn ~ 6900 4200
+NoConn ~ 6900 4300
+NoConn ~ 6900 4400
+NoConn ~ 6900 4500
+NoConn ~ 6900 4700
+NoConn ~ 6900 4600
+NoConn ~ 6900 4800
+NoConn ~ 6900 2400
+NoConn ~ 6900 2500
+NoConn ~ 6900 2600
+NoConn ~ 6900 2700
+NoConn ~ 6900 2800
+NoConn ~ 6900 2900
+NoConn ~ 6900 3000
+Wire Wire Line
+	6900 2300 7400 2300
+Text Label 7000 2300 0    60   ~ 0
+PA0
+Wire Wire Line
+	6900 3200 7600 3200
+Wire Wire Line
+	6900 3300 7600 3300
+Wire Wire Line
+	6900 3400 7600 3400
+Wire Wire Line
+	6900 3500 7600 3500
+Wire Wire Line
+	6900 3600 7600 3600
+Wire Wire Line
+	6900 3700 7600 3700
+Wire Wire Line
+	6900 3800 7600 3800
+Wire Wire Line
+	6900 3900 7600 3900
+Text Label 7000 3200 0    60   ~ 0
+PB0
+Text Label 7000 3300 0    60   ~ 0
+PB1
+Text Label 7000 3400 0    60   ~ 0
+PB2
+Text Label 7000 3500 0    60   ~ 0
+PB3
+Text Label 7000 3600 0    60   ~ 0
+PB4
+Text Label 7500 5100 2    60   ~ 0
+PB5
+Text Label 7000 3800 0    60   ~ 0
+PB6
+Text Label 7000 3900 0    60   ~ 0
+PB7
+Wire Wire Line
+	4200 2600 4100 2600
+Wire Wire Line
+	4200 2700 4100 2700
+Wire Wire Line
+	4200 2900 4100 2900
+Wire Wire Line
+	4200 3000 4100 3000
+Text Label 4100 2600 2    60   ~ 0
+XTALOUT
+Text Label 4100 2700 2    60   ~ 0
+XTALIN
+Text Label 4100 2900 2    60   ~ 0
+DP
+Text Label 4100 3000 2    60   ~ 0
+DM
+Wire Wire Line
+	4200 3500 3800 3500
+Wire Wire Line
+	4200 3600 3800 3600
+Text Label 4100 3500 2    60   ~ 0
+SCL
+Text Label 4100 3600 2    60   ~ 0
+SDA
+$Comp
+L pkl_R_Small R3
+U 1 1 59BC802B
+P 3700 3600
+F 0 "R3" V 3650 3700 50  0000 L CNN
+F 1 "2k7" V 3650 3500 50  0000 R CNN
+F 2 "pkl_dipol:R_0402" H 3700 3600 60  0001 C CNN
+F 3 "" H 3700 3600 60  0000 C CNN
+F 4 "ANY" H 3700 3600 60  0001 C CNN "Source"
+	1    3700 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3500 3400 3500
+Wire Wire Line
+	3400 3400 3400 3600
+Wire Wire Line
+	3400 3600 3600 3600
+Connection ~ 3400 3500
+$Comp
+L +3V3 #PWR02
+U 1 1 59BC809C
+P 3400 3400
+F 0 "#PWR02" H 3400 3250 50  0001 C CNN
+F 1 "+3V3" H 3400 3540 50  0000 C CNN
+F 2 "" H 3400 3400 50  0001 C CNN
+F 3 "" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4200 3600 4200
+Wire Wire Line
+	4200 4400 3600 4400
+Text Label 4100 4200 2    60   ~ 0
+~RESET
+Text Label 4100 4400 2    60   ~ 0
+WAKEUP
+$Comp
+L pkl_R_Small R4
+U 1 1 59BC8237
+P 3500 4200
+F 0 "R4" V 3450 4300 50  0000 L CNN
+F 1 "2k7" V 3450 4100 50  0000 R CNN
+F 2 "pkl_dipol:R_0402" H 3500 4200 60  0001 C CNN
+F 3 "" H 3500 4200 60  0000 C CNN
+F 4 "ANY" H 3500 4200 60  0001 C CNN "Source"
+	1    3500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R_Small R5
+U 1 1 59BC827F
+P 3500 4400
+F 0 "R5" V 3450 4500 50  0000 L CNN
+F 1 "100k" V 3450 4300 50  0000 R CNN
+F 2 "pkl_dipol:R_0402" H 3500 4400 60  0001 C CNN
+F 3 "" H 3500 4400 60  0000 C CNN
+F 4 "ANY" H 3500 4400 60  0001 C CNN "Source"
+	1    3500 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4200 3400 4200
+Wire Wire Line
+	2900 4100 2900 4400
+$Comp
+L +3V3 #PWR03
+U 1 1 59BC8347
+P 2900 4100
+F 0 "#PWR03" H 2900 3950 50  0001 C CNN
+F 1 "+3V3" H 2900 4240 50  0000 C CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4400 3100 4400
+Wire Wire Line
+	3100 4400 3100 4200
+Connection ~ 3100 4200
+Connection ~ 2900 4200
+Wire Wire Line
+	2900 4600 2900 4700
+$Comp
+L GND #PWR04
+U 1 1 59BC85CE
+P 2900 4700
+F 0 "#PWR04" H 2900 4450 50  0001 C CNN
+F 1 "GND" H 2900 4550 50  0000 C CNN
+F 2 "" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4600 4100 4600
+Wire Wire Line
+	4100 4600 4100 5300
+$Comp
+L GND #PWR05
+U 1 1 59BC8756
+P 4100 5300
+F 0 "#PWR05" H 4100 5050 50  0001 C CNN
+F 1 "GND" H 4100 5150 50  0000 C CNN
+F 2 "" H 4100 5300 50  0001 C CNN
+F 3 "" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 5200 2    60   ~ 0
+RESERVED must be tied to GND
+Wire Wire Line
+	5100 5100 5100 5200
+Wire Wire Line
+	5100 5200 5900 5200
+Wire Wire Line
+	5900 5200 5900 5100
+Wire Wire Line
+	5800 5100 5800 5200
+Connection ~ 5800 5200
+Wire Wire Line
+	5600 5100 5600 5200
+Connection ~ 5600 5200
+Wire Wire Line
+	5500 5100 5500 5300
+Connection ~ 5500 5200
+Wire Wire Line
+	5400 5100 5400 5200
+Connection ~ 5400 5200
+Wire Wire Line
+	5300 5100 5300 5200
+Connection ~ 5300 5200
+Wire Wire Line
+	5200 5100 5200 5200
+Connection ~ 5200 5200
+$Comp
+L GND #PWR06
+U 1 1 59BC8A76
+P 5500 5300
+F 0 "#PWR06" H 5500 5050 50  0001 C CNN
+F 1 "GND" H 5500 5150 50  0000 C CNN
+F 2 "" H 5500 5300 50  0001 C CNN
+F 3 "" H 5500 5300 50  0001 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_LED D1
+U 1 1 59BC9087
+P 7900 2300
+F 0 "D1" H 7900 2400 50  0000 C CNN
+F 1 "pkl_LED" H 7900 2200 50  0000 C CNN
+F 2 "pkl_dipol:D_0603" H 7900 2300 60  0001 C CNN
+F 3 "" H 7900 2300 60  0000 C CNN
+F 4 "ANY" H 7900 2300 60  0001 C CNN "Source"
+	1    7900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_R_Small R1
+U 1 1 59BC91D9
+P 7500 2300
+F 0 "R1" V 7450 2400 50  0000 L CNN
+F 1 "2k7" V 7450 2200 50  0000 R CNN
+F 2 "pkl_dipol:R_0402" H 7500 2300 60  0001 C CNN
+F 3 "" H 7500 2300 60  0000 C CNN
+F 4 "ANY" H 7500 2300 60  0001 C CNN "Source"
+	1    7500 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 2300 7700 2300
+Wire Wire Line
+	8100 2300 8200 2300
+Wire Wire Line
+	8200 2300 8200 2500
+$Comp
+L GND #PWR07
+U 1 1 59BC94B6
+P 8200 2500
+F 0 "#PWR07" H 8200 2250 50  0001 C CNN
+F 1 "GND" H 8200 2350 50  0000 C CNN
+F 2 "" H 8200 2500 50  0001 C CNN
+F 3 "" H 8200 2500 50  0001 C CNN
+	1    8200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1100 1600 1000
+$Comp
+L +5V #PWR08
+U 1 1 59BC9861
+P 1600 1000
+F 0 "#PWR08" H 1600 850 50  0001 C CNN
+F 1 "+5V" H 1600 1140 50  0000 C CNN
+F 2 "" H 1600 1000 50  0001 C CNN
+F 3 "" H 1600 1000 50  0001 C CNN
+	1    1600 1000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 1400
+Wire Wire Line
+	1500 1200 2000 1200
+Wire Wire Line
+	1500 1300 1800 1300
+Wire Wire Line
+	1500 1500 1700 1500
+Wire Wire Line
+	1700 1500 1700 1800
+Wire Wire Line
+	1700 1800 1100 1800
+Wire Wire Line
+	1100 1800 1100 1700
+Wire Wire Line
+	1400 1800 1400 1900
+Connection ~ 1400 1800
+$Comp
+L GND #PWR09
+U 1 1 59BC9A8B
+P 1400 1900
+F 0 "#PWR09" H 1400 1650 50  0001 C CNN
+F 1 "GND" H 1400 1750 50  0000 C CNN
+F 2 "" H 1400 1900 50  0001 C CNN
+F 3 "" H 1400 1900 50  0001 C CNN
+	1    1400 1900
+	1    0    0    -1  
+$EndComp
+Text Label 3200 1200 0    60   ~ 0
+DM
+Text Label 3200 1400 0    60   ~ 0
+DP
+$Comp
+L pkl_VREG_5PIN_FIXED U1
+U 1 1 59BCA11B
+P 1600 2800
+F 0 "U1" H 1450 2600 60  0000 C CNN
+F 1 "3.3V" H 1600 3000 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-23-5" H 1600 2800 60  0001 C CNN
+F 3 "" H 1600 2800 60  0000 C CNN
+F 4 "ANY" H 1600 2800 60  0001 C CNN "Source"
+	1    1600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2700 1300 2700
+Wire Wire Line
+	1500 1100 1600 1100
+$Comp
+L pkl_C C11
+U 1 1 59BCB8FF
+P 1000 3200
+F 0 "C11" H 1025 3300 50  0000 L CNN
+F 1 "4u7" H 1025 3100 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 1038 3050 30  0001 C CNN
+F 3 "" H 1000 3200 60  0000 C CNN
+F 4 "ANY" H 1000 3200 60  0001 C CNN "Source"
+	1    1000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C12
+U 1 1 59BCBABD
+P 1200 3200
+F 0 "C12" H 1210 3270 50  0000 L CNN
+F 1 "10n" H 1210 3120 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1200 3200 60  0001 C CNN
+F 3 "" H 1200 3200 60  0000 C CNN
+F 4 "ANY" H 1200 3200 60  0001 C CNN "Source"
+	1    1200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2800 1200 2800
+Wire Wire Line
+	1200 2800 1200 3100
+Wire Wire Line
+	1000 2700 1000 3100
+Wire Wire Line
+	1000 3300 1000 3400
+Wire Wire Line
+	1000 3400 1200 3400
+Wire Wire Line
+	1200 3400 1200 3300
+Wire Wire Line
+	1100 3400 1100 3500
+Connection ~ 1100 3400
+$Comp
+L GND #PWR010
+U 1 1 59BCBE6F
+P 1100 3500
+F 0 "#PWR010" H 1100 3250 50  0001 C CNN
+F 1 "GND" H 1100 3350 50  0000 C CNN
+F 2 "" H 1100 3500 50  0001 C CNN
+F 3 "" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C C13
+U 1 1 59BCBE9F
+P 2200 3200
+F 0 "C13" H 2225 3300 50  0000 L CNN
+F 1 "4u7" H 2225 3100 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 2238 3050 30  0001 C CNN
+F 3 "" H 2200 3200 60  0000 C CNN
+F 4 "ANY" H 2200 3200 60  0001 C CNN "Source"
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2900 2000 2900
+Wire Wire Line
+	2000 2900 2000 3400
+$Comp
+L GND #PWR011
+U 1 1 59BCBF80
+P 2100 3500
+F 0 "#PWR011" H 2100 3250 50  0001 C CNN
+F 1 "GND" H 2100 3350 50  0000 C CNN
+F 2 "" H 2100 3500 50  0001 C CNN
+F 3 "" H 2100 3500 50  0001 C CNN
+	1    2100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2700 2200 2700
+Wire Wire Line
+	2200 2700 2200 3100
+Wire Wire Line
+	2200 3400 2200 3300
+Wire Wire Line
+	2000 3400 2200 3400
+Wire Wire Line
+	2100 3400 2100 3500
+Connection ~ 2100 3400
+Wire Wire Line
+	1200 2700 1200 2600
+Connection ~ 1200 2700
+Wire Wire Line
+	2000 2700 2000 2600
+Connection ~ 2000 2700
+$Comp
+L +5V #PWR012
+U 1 1 59BCC3AB
+P 1200 2600
+F 0 "#PWR012" H 1200 2450 50  0001 C CNN
+F 1 "+5V" H 1200 2740 50  0000 C CNN
+F 2 "" H 1200 2600 50  0001 C CNN
+F 3 "" H 1200 2600 50  0001 C CNN
+	1    1200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR013
+U 1 1 59BCC3DD
+P 2000 2600
+F 0 "#PWR013" H 2000 2450 50  0001 C CNN
+F 1 "+3V3" H 2000 2740 50  0000 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2900 1100 2900
+Wire Wire Line
+	1100 2900 1100 2700
+Connection ~ 1100 2700
+$Comp
+L pkl_C_Small C1
+U 1 1 59BCD014
+P 3700 1100
+F 0 "C1" H 3710 1170 50  0000 L CNN
+F 1 "100n" H 3710 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3700 1100 60  0001 C CNN
+F 3 "" H 3700 1100 60  0000 C CNN
+F 4 "ANY" H 3700 1100 60  0001 C CNN "Source"
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C2
+U 1 1 59BCD4ED
+P 3900 1100
+F 0 "C2" H 3910 1170 50  0000 L CNN
+F 1 "100n" H 3910 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3900 1100 60  0001 C CNN
+F 3 "" H 3900 1100 60  0000 C CNN
+F 4 "ANY" H 3900 1100 60  0001 C CNN "Source"
+	1    3900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C3
+U 1 1 59BCD52C
+P 4100 1100
+F 0 "C3" H 4110 1170 50  0000 L CNN
+F 1 "100n" H 4110 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4100 1100 60  0001 C CNN
+F 3 "" H 4100 1100 60  0000 C CNN
+F 4 "ANY" H 4100 1100 60  0001 C CNN "Source"
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C4
+U 1 1 59BCD572
+P 4300 1100
+F 0 "C4" H 4310 1170 50  0000 L CNN
+F 1 "100n" H 4310 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4300 1100 60  0001 C CNN
+F 3 "" H 4300 1100 60  0000 C CNN
+F 4 "ANY" H 4300 1100 60  0001 C CNN "Source"
+	1    4300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C5
+U 1 1 59BCD5BB
+P 4500 1100
+F 0 "C5" H 4510 1170 50  0000 L CNN
+F 1 "100n" H 4510 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4500 1100 60  0001 C CNN
+F 3 "" H 4500 1100 60  0000 C CNN
+F 4 "ANY" H 4500 1100 60  0001 C CNN "Source"
+	1    4500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C6
+U 1 1 59BCD603
+P 4700 1100
+F 0 "C6" H 4710 1170 50  0000 L CNN
+F 1 "100n" H 4710 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4700 1100 60  0001 C CNN
+F 3 "" H 4700 1100 60  0000 C CNN
+F 4 "ANY" H 4700 1100 60  0001 C CNN "Source"
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1000 3700 900 
+Wire Wire Line
+	3700 900  4700 900 
+Wire Wire Line
+	4700 900  4700 1000
+Wire Wire Line
+	4500 1000 4500 900 
+Connection ~ 4500 900 
+Wire Wire Line
+	4300 1000 4300 900 
+Connection ~ 4300 900 
+Wire Wire Line
+	4100 1000 4100 900 
+Connection ~ 4100 900 
+Wire Wire Line
+	3900 1000 3900 900 
+Connection ~ 3900 900 
+Wire Wire Line
+	3700 1200 3700 1300
+Wire Wire Line
+	3700 1300 4700 1300
+Wire Wire Line
+	4700 1300 4700 1200
+Wire Wire Line
+	3900 1200 3900 1300
+Connection ~ 3900 1300
+Wire Wire Line
+	4100 1200 4100 1300
+Connection ~ 4100 1300
+Wire Wire Line
+	4300 1200 4300 1300
+Connection ~ 4300 1300
+Wire Wire Line
+	4500 1200 4500 1300
+Connection ~ 4500 1300
+Wire Wire Line
+	4200 900  4200 800 
+Connection ~ 4200 900 
+$Comp
+L +3V3 #PWR014
+U 1 1 59BCDBFB
+P 4200 800
+F 0 "#PWR014" H 4200 650 50  0001 C CNN
+F 1 "+3V3" H 4200 940 50  0000 C CNN
+F 2 "" H 4200 800 50  0001 C CNN
+F 3 "" H 4200 800 50  0001 C CNN
+	1    4200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1300 4200 1400
+Connection ~ 4200 1300
+$Comp
+L GND #PWR015
+U 1 1 59BCDECB
+P 4200 1400
+F 0 "#PWR015" H 4200 1150 50  0001 C CNN
+F 1 "GND" H 4200 1250 50  0000 C CNN
+F 2 "" H 4200 1400 50  0001 C CNN
+F 3 "" H 4200 1400 50  0001 C CNN
+	1    4200 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 3300 1700 0    60   ~ 0
+100n bypass caps for all VCC pins
+$Comp
+L pkl_C_Small C9
+U 1 1 59BCE21C
+P 6500 1100
+F 0 "C9" H 6510 1170 50  0000 L CNN
+F 1 "100n" H 6510 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6500 1100 60  0001 C CNN
+F 3 "" H 6500 1100 60  0000 C CNN
+F 4 "ANY" H 6500 1100 60  0001 C CNN "Source"
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C10
+U 1 1 59BCE282
+P 6700 1100
+F 0 "C10" H 6710 1170 50  0000 L CNN
+F 1 "100n" H 6710 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6700 1100 60  0001 C CNN
+F 3 "" H 6700 1100 60  0000 C CNN
+F 4 "ANY" H 6700 1100 60  0001 C CNN "Source"
+	1    6700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C8
+U 1 1 59BCE2D7
+P 6300 1100
+F 0 "C8" H 6310 1170 50  0000 L CNN
+F 1 "2u2" H 6310 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6300 1100 60  0001 C CNN
+F 3 "" H 6300 1100 60  0000 C CNN
+F 4 "ANY" H 6300 1100 60  0001 C CNN "Source"
+	1    6300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C7
+U 1 1 59BCE337
+P 6100 1100
+F 0 "C7" H 6110 1170 50  0000 L CNN
+F 1 "2u2" H 6110 1020 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6100 1100 60  0001 C CNN
+F 3 "" H 6100 1100 60  0000 C CNN
+F 4 "ANY" H 6100 1100 60  0001 C CNN "Source"
+	1    6100 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1000 6100 900 
+Wire Wire Line
+	6100 900  6700 900 
+Wire Wire Line
+	6700 900  6700 1000
+Wire Wire Line
+	6500 1000 6500 900 
+Connection ~ 6500 900 
+Wire Wire Line
+	6300 1000 6300 900 
+Connection ~ 6300 900 
+Wire Wire Line
+	6100 1200 6100 1300
+Wire Wire Line
+	6100 1300 6700 1300
+Wire Wire Line
+	6700 1300 6700 1200
+Wire Wire Line
+	6500 1200 6500 1300
+Connection ~ 6500 1300
+Wire Wire Line
+	6300 1200 6300 1300
+Connection ~ 6300 1300
+Wire Wire Line
+	6400 1300 6400 1400
+Connection ~ 6400 1300
+Wire Wire Line
+	6400 900  6400 800 
+Connection ~ 6400 900 
+$Comp
+L +3V3 #PWR016
+U 1 1 59BCE98D
+P 6400 800
+F 0 "#PWR016" H 6400 650 50  0001 C CNN
+F 1 "+3V3" H 6400 940 50  0000 C CNN
+F 2 "" H 6400 800 50  0001 C CNN
+F 3 "" H 6400 800 50  0001 C CNN
+	1    6400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 59BCE9DD
+P 6400 1400
+F 0 "#PWR017" H 6400 1150 50  0001 C CNN
+F 1 "GND" H 6400 1250 50  0000 C CNN
+F 2 "" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 1700 0    60   ~ 0
+2u2/100n bypass caps for all AVCC pins
+$Comp
+L pkl_XTAL_XGXG X1
+U 1 1 59BCF405
+P 1400 4700
+F 0 "X1" H 1500 4800 50  0000 C CNN
+F 1 "24MHz" H 1450 4600 50  0000 L CNN
+F 2 "pkl_misc:ABM8" H 1400 4700 60  0001 C CNN
+F 3 "" H 1400 4700 60  0000 C CNN
+F 4 "ANY" H 1400 4700 60  0001 C CNN "Source"
+	1    1400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4800 1400 4900
+$Comp
+L GND #PWR018
+U 1 1 59BCF789
+P 1400 4900
+F 0 "#PWR018" H 1400 4650 50  0001 C CNN
+F 1 "GND" H 1400 4750 50  0000 C CNN
+F 2 "" H 1400 4900 50  0001 C CNN
+F 3 "" H 1400 4900 50  0001 C CNN
+	1    1400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4600 1400 4200
+Wire Wire Line
+	1400 4200 1600 4200
+Wire Wire Line
+	1600 4200 1600 4300
+$Comp
+L GND #PWR019
+U 1 1 59BCF8B6
+P 1600 4300
+F 0 "#PWR019" H 1600 4050 50  0001 C CNN
+F 1 "GND" H 1600 4150 50  0000 C CNN
+F 2 "" H 1600 4300 50  0001 C CNN
+F 3 "" H 1600 4300 50  0001 C CNN
+	1    1600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 59BCF909
+P 1600 4300
+F 0 "#PWR020" H 1600 4050 50  0001 C CNN
+F 1 "GND" H 1600 4150 50  0000 C CNN
+F 2 "" H 1600 4300 50  0001 C CNN
+F 3 "" H 1600 4300 50  0001 C CNN
+	1    1600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4700 1900 4700
+Wire Wire Line
+	900  4700 1300 4700
+Wire Wire Line
+	1800 4700 1800 4800
+Connection ~ 1800 4700
+Wire Wire Line
+	1000 4700 1000 4800
+Connection ~ 1000 4700
+$Comp
+L pkl_C_Small C16
+U 1 1 59BCFF16
+P 1800 4900
+F 0 "C16" H 1810 4970 50  0000 L CNN
+F 1 "12p" H 1810 4820 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1800 4900 60  0001 C CNN
+F 3 "" H 1800 4900 60  0000 C CNN
+F 4 "ANY" H 1800 4900 60  0001 C CNN "Source"
+	1    1800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_C_Small C15
+U 1 1 59BCFFAD
+P 1000 4900
+F 0 "C15" H 1010 4970 50  0000 L CNN
+F 1 "12p" H 1010 4820 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1000 4900 60  0001 C CNN
+F 3 "" H 1000 4900 60  0000 C CNN
+F 4 "ANY" H 1000 4900 60  0001 C CNN "Source"
+	1    1000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5000 1000 5100
+Wire Wire Line
+	1800 5000 1800 5100
+$Comp
+L GND #PWR021
+U 1 1 59BD031F
+P 1000 5100
+F 0 "#PWR021" H 1000 4850 50  0001 C CNN
+F 1 "GND" H 1000 4950 50  0000 C CNN
+F 2 "" H 1000 5100 50  0001 C CNN
+F 3 "" H 1000 5100 50  0001 C CNN
+	1    1000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 59BD0378
+P 1800 5100
+F 0 "#PWR022" H 1800 4850 50  0001 C CNN
+F 1 "GND" H 1800 4950 50  0000 C CNN
+F 2 "" H 1800 5100 50  0001 C CNN
+F 3 "" H 1800 5100 50  0001 C CNN
+	1    1800 5100
+	1    0    0    -1  
+$EndComp
+Text Label 900  4700 2    60   ~ 0
+XTALOUT
+Text Label 1900 4700 0    60   ~ 0
+XTALIN
+$Comp
+L Conn_02x05_Odd_Even J1
+U 1 1 59BD0AF3
+P 10200 3400
+F 0 "J1" H 10250 3700 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 10250 3100 50  0000 C CNN
+F 2 "pkl_samtec:FTSH-105-XX-X-D" H 10200 3400 50  0001 C CNN
+F 3 "" H 10200 3400 50  0001 C CNN
+	1    10200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 3600 9800 3600
+Wire Wire Line
+	9800 3600 9800 3800
+Wire Wire Line
+	10500 3600 10700 3600
+Wire Wire Line
+	10700 3600 10700 3800
+Wire Wire Line
+	10500 3200 10600 3200
+Wire Wire Line
+	10500 3300 10600 3300
+Wire Wire Line
+	10500 3400 10600 3400
+Wire Wire Line
+	10500 3500 10600 3500
+Wire Wire Line
+	10000 3200 9900 3200
+Wire Wire Line
+	10000 3300 9900 3300
+Wire Wire Line
+	10000 3400 9900 3400
+Wire Wire Line
+	10000 3500 9900 3500
+$Comp
+L GND #PWR023
+U 1 1 59BD143D
+P 9800 3800
+F 0 "#PWR023" H 9800 3550 50  0001 C CNN
+F 1 "GND" H 9800 3650 50  0000 C CNN
+F 2 "" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 59BD1499
+P 10700 3800
+F 0 "#PWR024" H 10700 3550 50  0001 C CNN
+F 1 "GND" H 10700 3650 50  0000 C CNN
+F 2 "" H 10700 3800 50  0001 C CNN
+F 3 "" H 10700 3800 50  0001 C CNN
+	1    10700 3800
+	1    0    0    -1  
+$EndComp
+Text Label 9900 3200 2    60   ~ 0
+xPB0
+Text Label 10600 3200 0    60   ~ 0
+xPB1
+Text Label 10600 3300 0    60   ~ 0
+xPB3
+Text Label 10600 3400 0    60   ~ 0
+xPB5
+Text Label 10600 3500 0    60   ~ 0
+xPB7
+Text Label 9900 3300 2    60   ~ 0
+xPB2
+Text Label 9900 3400 2    60   ~ 0
+xPB4
+Text Label 9900 3500 2    60   ~ 0
+xPB6
+Text Notes 900  5400 0    60   ~ 0
+Check XTAL cap values!
+$Comp
+L pkl_R4_Small R6
+U 1 1 59BD42FA
+P 7700 3200
+F 0 "R6" V 7650 3300 50  0000 L CNN
+F 1 "100E" V 7650 3100 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3200 60  0001 C CNN
+F 3 "" H 7700 3200 60  0000 C CNN
+F 4 "ANY" H 7700 3200 60  0001 C CNN "Source"
+	1    7700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R6
+U 2 1 59BD5238
+P 7700 3300
+F 0 "R6" V 7650 3400 50  0000 L CNN
+F 1 "100E" V 7650 3200 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3300 60  0001 C CNN
+F 3 "" H 7700 3300 60  0000 C CNN
+F 4 "ANY" H 7700 3300 60  0001 C CNN "Source"
+	2    7700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R6
+U 3 1 59BD52A1
+P 7700 3400
+F 0 "R6" V 7650 3500 50  0000 L CNN
+F 1 "100E" V 7650 3300 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3400 60  0001 C CNN
+F 3 "" H 7700 3400 60  0000 C CNN
+F 4 "ANY" H 7700 3400 60  0001 C CNN "Source"
+	3    7700 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R6
+U 4 1 59BD530D
+P 7700 3500
+F 0 "R6" V 7650 3600 50  0000 L CNN
+F 1 "100E" V 7650 3400 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3500 60  0001 C CNN
+F 3 "" H 7700 3500 60  0000 C CNN
+F 4 "ANY" H 7700 3500 60  0001 C CNN "Source"
+	4    7700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R7
+U 1 1 59BD537C
+P 7700 3600
+F 0 "R7" V 7650 3700 50  0000 L CNN
+F 1 "100E" V 7650 3500 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3600 60  0001 C CNN
+F 3 "" H 7700 3600 60  0000 C CNN
+F 4 "ANY" H 7700 3600 60  0001 C CNN "Source"
+	1    7700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R7
+U 2 1 59BD53EE
+P 7700 3700
+F 0 "R7" V 7650 3800 50  0000 L CNN
+F 1 "100E" V 7650 3600 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3700 60  0001 C CNN
+F 3 "" H 7700 3700 60  0000 C CNN
+F 4 "ANY" H 7700 3700 60  0001 C CNN "Source"
+	2    7700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R7
+U 3 1 59BD5467
+P 7700 3800
+F 0 "R7" V 7650 3900 50  0000 L CNN
+F 1 "100E" V 7650 3700 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3800 60  0001 C CNN
+F 3 "" H 7700 3800 60  0000 C CNN
+F 4 "ANY" H 7700 3800 60  0001 C CNN "Source"
+	3    7700 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_R4_Small R7
+U 4 1 59BD54DF
+P 7700 3900
+F 0 "R7" V 7650 4000 50  0000 L CNN
+F 1 "100E" V 7650 3800 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 3900 60  0001 C CNN
+F 3 "" H 7700 3900 60  0000 C CNN
+F 4 "ANY" H 7700 3900 60  0001 C CNN "Source"
+	4    7700 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3200 8000 3200
+Wire Wire Line
+	7800 3300 8000 3300
+Wire Wire Line
+	7800 3400 8000 3400
+Wire Wire Line
+	7800 3500 8000 3500
+Wire Wire Line
+	7800 3600 8000 3600
+Wire Wire Line
+	7800 3700 8000 3700
+Wire Wire Line
+	7800 3800 8000 3800
+Wire Wire Line
+	7800 3900 8000 3900
+Text Label 8000 3200 0    60   ~ 0
+xPB0
+Text Label 8000 3300 0    60   ~ 0
+xPB1
+Text Label 8000 3400 0    60   ~ 0
+xPB2
+Text Label 8000 3500 0    60   ~ 0
+xPB3
+Text Label 8000 3600 0    60   ~ 0
+xPB4
+Text Label 8000 3700 0    60   ~ 0
+xPB5
+Text Label 8000 3800 0    60   ~ 0
+xPB6
+Text Label 8000 3900 0    60   ~ 0
+xPB7
+$Comp
+L USBLC6-2 U2
+U 1 1 59BD7AC3
+P 2500 1300
+F 0 "U2" H 2500 1000 60  0000 C CNN
+F 1 "USBLC6-2" H 2500 1600 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-666" H 2500 1300 60  0001 C CNN
+F 3 "" H 2500 1300 60  0000 C CNN
+F 4 "ANY" H 2500 1300 60  0001 C CNN "Source"
+	1    2500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1200 3200 1200
+Text Label 1600 1300 0    60   ~ 0
+xDP
+Text Label 1600 1200 0    60   ~ 0
+xDM
+Wire Wire Line
+	1800 1300 1800 1400
+Wire Wire Line
+	1800 1400 2000 1400
+Wire Wire Line
+	2000 1300 1900 1300
+Wire Wire Line
+	1900 1300 1900 1500
+Wire Wire Line
+	3000 1400 3200 1400
+Wire Wire Line
+	3000 1300 3100 1300
+Wire Wire Line
+	3100 1300 3100 1100
+$Comp
+L +5V #PWR025
+U 1 1 59BD93B5
+P 3100 1100
+F 0 "#PWR025" H 3100 950 50  0001 C CNN
+F 1 "+5V" H 3100 1240 50  0000 C CNN
+F 2 "" H 3100 1100 50  0001 C CNN
+F 3 "" H 3100 1100 50  0001 C CNN
+	1    3100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 59BD942C
+P 1900 1500
+F 0 "#PWR026" H 1900 1250 50  0001 C CNN
+F 1 "GND" H 1900 1350 50  0000 C CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 2000 1800 0    60   ~ 0
+Check clamping voltage!
+$Comp
+L DSILC6-4 U3
+U 1 1 59BDBA77
+P 8200 4500
+F 0 "U3" H 8400 4800 60  0000 C CNN
+F 1 "DSILC6-4" H 8000 4800 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-666" H 8200 4500 60  0001 C CNN
+F 3 "" H 8200 4500 60  0000 C CNN
+F 4 "ANY" H 8200 4500 60  0001 C CNN "Source"
+	1    8200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DSILC6-4 U4
+U 1 1 59BDBB65
+P 8200 5000
+F 0 "U4" H 8400 4700 60  0000 C CNN
+F 1 "DSILC6-4" H 7900 4700 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-666" H 8200 5000 60  0001 C CNN
+F 3 "" H 8200 5000 60  0000 C CNN
+F 4 "ANY" H 8200 5000 60  0001 C CNN "Source"
+	1    8200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4500 7600 4500
+Wire Wire Line
+	7600 4500 7600 5400
+Wire Wire Line
+	7700 5000 7600 5000
+Connection ~ 7600 5000
+Wire Wire Line
+	8800 5000 8700 5000
+Wire Wire Line
+	8800 4200 8800 5000
+Wire Wire Line
+	8700 4500 8800 4500
+Connection ~ 8800 4500
+$Comp
+L GND #PWR027
+U 1 1 59BDEB97
+P 7600 5400
+F 0 "#PWR027" H 7600 5150 50  0001 C CNN
+F 1 "GND" H 7600 5250 50  0000 C CNN
+F 2 "" H 7600 5400 50  0001 C CNN
+F 3 "" H 7600 5400 50  0001 C CNN
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR028
+U 1 1 59BDF334
+P 8800 4200
+F 0 "#PWR028" H 8800 4050 50  0001 C CNN
+F 1 "+3V3" H 8800 4340 50  0000 C CNN
+F 2 "" H 8800 4200 50  0001 C CNN
+F 3 "" H 8800 4200 50  0001 C CNN
+	1    8800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4600 7500 4600
+Wire Wire Line
+	7700 4400 7500 4400
+Wire Wire Line
+	7700 4900 7500 4900
+Wire Wire Line
+	7700 5100 7500 5100
+Wire Wire Line
+	8700 4900 8900 4900
+Wire Wire Line
+	8700 5100 8900 5100
+Wire Wire Line
+	8700 4400 8900 4400
+Wire Wire Line
+	8700 4600 8900 4600
+Text Label 7500 4400 2    60   ~ 0
+PB0
+Text Label 7500 4600 2    60   ~ 0
+PB1
+Text Label 8900 4400 0    60   ~ 0
+PB2
+Text Label 8900 4600 0    60   ~ 0
+PB3
+Text Label 7500 4900 2    60   ~ 0
+PB4
+Text Label 7000 3700 0    60   ~ 0
+PB5
+Text Label 8900 4900 0    60   ~ 0
+PB6
+Text Label 8900 5100 0    60   ~ 0
+PB7
+$EndSCHEMATC
