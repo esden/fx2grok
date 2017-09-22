@@ -3,9 +3,9 @@
   (general
     (links 83)
     (no_connects 0)
-    (area 50.03038 32.773983 88.390762 61.842831)
+    (area 67.688459 37.736499 80.713861 50.761901)
     (thickness 0.8)
-    (drawings 22)
+    (drawings 23)
     (tracks 345)
     (zones 0)
     (modules 27)
@@ -955,6 +955,7 @@
       (net 19 GND) (clearance 0.29972))
   )
 
+  (gr_circle (center 70.21576 46.6598) (end 70.24116 46.6598) (layer B.SilkS) (width 0.381))
   (gr_text "tiny 0.1" (at 76.41336 44.69892 90) (layer F.Mask) (tstamp 59B23A6C)
     (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
   )
