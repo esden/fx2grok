@@ -1095,7 +1095,7 @@ F 3 "" H 5900 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 P1
+L Conn_01x05 P1
 U 1 1 596377A2
 P 8850 2750
 F 0 "P1" H 8850 3050 50  0000 C CNN
@@ -1106,7 +1106,7 @@ F 3 "" H 8850 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 P2
+L Conn_01x05 P2
 U 1 1 59637927
 P 9300 2750
 F 0 "P2" H 9300 3050 50  0000 C CNN
@@ -1193,4 +1193,6 @@ $EndComp
 NoConn ~ 10150 5550
 Wire Wire Line
 	10350 5950 10350 6050
+Text Notes 2800 1550 0    217  ~ 0
+WARNING: PCB version 0.1 is unusable,\ndon't manufacture/use!
 $EndSCHEMATC

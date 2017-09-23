@@ -3,9 +3,9 @@
   (general
     (links 83)
     (no_connects 0)
-    (area 50.03038 32.773983 88.390762 61.842831)
+    (area 50.03038 25.3746 97.827373 61.842831)
     (thickness 0.8)
-    (drawings 24)
+    (drawings 25)
     (tracks 345)
     (zones 0)
     (modules 27)
@@ -955,6 +955,9 @@
       (net 19 GND) (clearance 0.29972))
   )
 
+  (gr_text "WARNING: PCB version 0.1 is unusable,\ndon't manufacture/use!\n" (at 74.49566 28.6258) (layer Dwgs.User)
+    (effects (font (size 2.032 1.524) (thickness 0.3048)))
+  )
   (gr_line (start 69.58076 49.022) (end 70.39356 49.8348) (angle 90) (layer B.SilkS) (width 0.381))
   (gr_circle (center 70.21576 46.6598) (end 70.24116 46.6598) (layer B.SilkS) (width 0.381))
   (gr_text "tiny 0.1" (at 76.41336 44.69892 90) (layer F.Mask) (tstamp 59B23A6C)
