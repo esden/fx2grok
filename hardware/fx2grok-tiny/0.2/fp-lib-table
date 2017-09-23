@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name fx2grok-tiny)(type KiCad)(uri "$(KIPRJMOD)/fx2grok-tiny.pretty")(options "")(descr ""))
+)
