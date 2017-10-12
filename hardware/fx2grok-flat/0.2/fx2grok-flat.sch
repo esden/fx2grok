@@ -1179,8 +1179,6 @@ F 3 "" H 2100 1400 50  0001 C CNN
 	1    2100 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 1700 0    60   ~ 0
-Check clamping voltage!
 Text Label 7600 4600 0    60   ~ 0
 PB5
 $Comp
