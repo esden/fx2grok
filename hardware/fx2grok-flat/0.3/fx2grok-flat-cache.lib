@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_02x07_Odd_Even
+# Connector_Generic:Conn_02x07_Odd_Even
 #
-DEF Connector_Generic_Conn_02x07_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x07_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
+F1 "Connector_Generic:Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +44,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_conn_pkl_USB_OTG
+# pkl_conn:pkl_USB_OTG
 #
-DEF pkl_conn_pkl_USB_OTG P 0 40 Y Y 1 F N
+DEF pkl_conn:pkl_USB_OTG P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "pkl_conn_pkl_USB_OTG" 0 200 50 H V C CNN
+F1 "pkl_conn:pkl_USB_OTG" 0 200 50 H V C CNN
 F2 "" -50 -100 60 V V C CNN
 F3 "" -50 -100 60 V V C CNN
 $FPLIST
@@ -70,11 +70,11 @@ X shield GND 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_cypress_CY7C68013A-56
+# pkl_cypress:CY7C68013A-56
 #
-DEF pkl_cypress_CY7C68013A-56 IC 0 40 Y Y 1 F N
+DEF pkl_cypress:CY7C68013A-56 IC 0 40 Y Y 1 F N
 F0 "IC" 0 -1700 60 H V C CNN
-F1 "pkl_cypress_CY7C68013A-56" 0 0 60 H V C CNN
+F1 "pkl_cypress:CY7C68013A-56" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -139,11 +139,11 @@ X DMINUS 9 -1400 600 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_C
+# pkl_device:pkl_C
 #
-DEF pkl_device_pkl_C C 0 10 N Y 1 F N
+DEF pkl_device:pkl_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pkl_device_pkl_C" 25 -100 50 H V L CNN
+F1 "pkl_device:pkl_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -161,11 +161,11 @@ X ~ 2 0 -100 60 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_C_Small
+# pkl_device:pkl_C_Small
 #
-DEF pkl_device_pkl_C_Small C 0 10 N N 1 F N
+DEF pkl_device:pkl_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "pkl_device_pkl_C_Small" 10 -80 50 H V L CNN
+F1 "pkl_device:pkl_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -183,11 +183,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_LED
+# pkl_device:pkl_LED
 #
-DEF pkl_device_pkl_LED D 0 40 Y N 1 F N
+DEF pkl_device:pkl_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "pkl_device_pkl_LED" 0 -100 50 H V C CNN
+F1 "pkl_device:pkl_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -209,11 +209,11 @@ X C C 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_R4_Small
+# pkl_device:pkl_R4_Small
 #
-DEF pkl_device_pkl_R4_Small R 0 10 N N 4 F N
+DEF pkl_device:pkl_R4_Small R 0 10 N N 4 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "pkl_device_pkl_R4_Small" 30 -40 50 H V L CNN
+F1 "pkl_device:pkl_R4_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -233,11 +233,11 @@ X ~ 8 0 -100 30 U 40 40 4 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_R_Small
+# pkl_device:pkl_R_Small
 #
-DEF pkl_device_pkl_R_Small R 0 10 N N 1 F N
+DEF pkl_device:pkl_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "pkl_device_pkl_R_Small" 30 -40 50 H V L CNN
+F1 "pkl_device:pkl_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -251,11 +251,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_VREG_5PIN_FIXED
+# pkl_device:pkl_VREG_5PIN_FIXED
 #
-DEF pkl_device_pkl_VREG_5PIN_FIXED U 0 40 Y Y 1 F N
+DEF pkl_device:pkl_VREG_5PIN_FIXED U 0 40 Y Y 1 F N
 F0 "U" -150 -200 60 H V C CNN
-F1 "pkl_device_pkl_VREG_5PIN_FIXED" 0 200 60 H V C CNN
+F1 "pkl_device:pkl_VREG_5PIN_FIXED" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -268,11 +268,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# pkl_device_pkl_XTAL_XGXG
+# pkl_device:pkl_XTAL_XGXG
 #
-DEF pkl_device_pkl_XTAL_XGXG X 0 40 Y N 1 F N
+DEF pkl_device:pkl_XTAL_XGXG X 0 40 Y N 1 F N
 F0 "X" 100 100 50 H V C CNN
-F1 "pkl_device_pkl_XTAL_XGXG" 50 -100 50 H V L CNN
+F1 "pkl_device:pkl_XTAL_XGXG" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -288,11 +288,11 @@ X case GND 0 100 30 D 10 20 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_memory_pkl_24LC00
+# pkl_memory:pkl_24LC00
 #
-DEF pkl_memory_pkl_24LC00 U 0 30 Y Y 1 F N
+DEF pkl_memory:pkl_24LC00 U 0 30 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "pkl_memory_pkl_24LC00" 250 250 50 H V C CNN
+F1 "pkl_memory:pkl_24LC00" 250 250 50 H V C CNN
 F2 "pkl_housings_sot:SOT-23-5" 500 250 50 H I L CNN
 F3 "" 0 -100 50 H V C CNN
 F4 "ANY" 0 0 60 H I C CNN "Source"
@@ -309,11 +309,11 @@ X NC 4 400 0 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# pkl_misc_IP425x-4-TTL
+# pkl_misc:IP425x-4-TTL
 #
-DEF pkl_misc_IP425x-4-TTL U 0 40 Y Y 4 F N
+DEF pkl_misc:IP425x-4-TTL U 0 40 Y Y 4 F N
 F0 "U" 300 -100 60 H V C CNN
-F1 "pkl_misc_IP425x-4-TTL" 0 100 60 H V C CNN
+F1 "pkl_misc:IP425x-4-TTL" 0 100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -356,11 +356,11 @@ X ~ 5 300 0 100 L 50 50 4 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_misc_USBLC6-2
+# pkl_misc:USBLC6-2
 #
-DEF pkl_misc_USBLC6-2 U 0 40 Y Y 1 F N
+DEF pkl_misc:USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
-F1 "pkl_misc_USBLC6-2" 0 300 60 H V C CNN
+F1 "pkl_misc:USBLC6-2" 0 300 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -402,11 +402,11 @@ X IO1 6 500 100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# power_+3V3
+# power:+3V3
 #
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+DEF power:+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
+F1 "power:+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -418,11 +418,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -433,11 +433,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -446,11 +446,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power:PWR_FLAG
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
